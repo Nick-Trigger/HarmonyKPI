@@ -1,8 +1,8 @@
-# Harmony Scheduler / KPI
+# Factory Scheduling and KPI Reporting API with Frontend
 
 A constraint-based production scheduling service. Accepts a job-shop scheduling problem as JSON, returns a feasible schedule that minimizes total tardiness, and reports KPIs. Includes a React frontend with a Gantt visualization.
 
-Built for the Harmony take-home; structured for extensibility (new client input/output formats, new objectives, new constraints) per the spec's design expectations (see [design notes](#design-notes)).
+Designed for extensibility (new client input/output formats, new objectives, new constraints) per the spec's design expectations (see [design notes](#design-notes)).
 
 [![CI](https://github.com/Nick-Trigger/Harmony_Scheduler-KPI/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Nick-Trigger/Harmony_Scheduler-KPI/actions/workflows/ci.yml)
 
